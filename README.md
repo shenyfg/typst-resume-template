@@ -4,22 +4,18 @@
 
 <table>
   <tr>
-    <td><img src="assets/preview_1.jpg" alt="简历第1页" width="400"/></td>
-    <td><img src="assets/preview_2.jpg" alt="简历第2页" width="400"/></td>
+    <td><img src="assets/preview_1.png" alt="简历第1页" width="400"/></td>
+    <td><img src="assets/preview_2.png" alt="简历第2页" width="400"/></td>
   </tr>
 </table>
 
-- 为什么选择typst而不是latex？
+## 背景
 
-作者没有使用过latex，感觉latex太重了。typst语法简单，易于构建，很适合用来写简历。
+这个项目主要解决作者以下几个简历的需求：
 
-- 为什么不用在线的简历网站？
-
-简历网站不好控制，数据在云端保存，不好保存修改；模板是预制的，无法修改。
-
-而这个简历模板极简，只有两个文件：一个文件编辑样式，一个文件编辑文本，非常方便灵活，可以很方便地创建副本，并用git追踪修改。
-
-**简历最重要的永远是内容。**
+1. **纯文本**。这样就可以方便地用git追踪修改、针对不同公司创建简历变体、使用ai帮助修改。
+2. **语法和编译简单**。不需要学习复杂的语法，不用浪费token。
+3. **格式调整灵活**。在线的简历网站往往模板固定，不好调整。而本项目只有两个文件，一个负责样式，一个负责内容，两者都可以灵活调整。
 
 ## 文件结构
 
@@ -83,7 +79,8 @@ brew install typst
 
 ```bash
 make          # 生成 resume_zh.pdf
-make clean    # 删除生成的 PDF
+make preview  # 生成 assets/preview_*.png（300 PPI 高清预览图）
+make clean    # 删除生成的 PDF 和预览图
 ```
 
 或直接用 typst 命令：
