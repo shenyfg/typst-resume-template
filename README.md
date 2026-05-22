@@ -1,13 +1,11 @@
-# 极简 Typst 中文简历模板
+  # 极简 Typst 中文简历模板
 
 ## 效果预览
 
-<table>
-  <tr>
-    <td><img src="assets/preview_1.png" alt="简历第1页" width="400"/></td>
-    <td><img src="assets/preview_2.png" alt="简历第2页" width="400"/></td>
-  </tr>
-</table>
+<img src="assets/preview_1.png" alt="简历第1页" width="400"/>
+
+<img src="assets/preview_2.png" alt="简历第2页" width="400"/>
+
 
 ## 背景
 
