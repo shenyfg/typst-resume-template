@@ -2,10 +2,9 @@
 
 ## 效果预览
 
-<img src="assets/preview_1.png" alt="简历第1页" width="400"/>
+<img src="assets/preview_1.png" alt="简历第1页"/>
 
-<img src="assets/preview_2.png" alt="简历第2页" width="400"/>
-
+<img src="assets/preview_2.png" alt="简历第2页"/>
 
 ## 背景
 
